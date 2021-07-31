@@ -295,12 +295,16 @@ Background color
 /* Team  */
 .team {
   background-color: var(--secondary-background);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .workers .worker-card {
   background-color: #ffffff;
   text-align: center;
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .workers .worker-card:not(:last-child) {
@@ -591,4 +595,10 @@ Background color
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
   background-color: #ffffff;
+}
+
+.item:hover,
+.item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
