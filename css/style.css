@@ -168,7 +168,10 @@ Background color
 
 .cont-icon {
   height: 16px;
+  width: 16px;
   margin-right: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   fill: currentColor;
 }
 
@@ -386,16 +389,18 @@ Background color
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
-.customer:not(:last-child) {
+.customer .link:not(:last-child) {
   margin-right: 30px;
 }
 
 .customer-link {
-  display: flex;
+  display:flex;
   width: 170px;
   height: 92px;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
   color: var(--icon-color);
@@ -413,7 +418,8 @@ Background color
   display: flex;
   padding: 0;
   margin: 0;
-  height: 106px;
+  width: 106px;
+  height: 60px;
   fill: currentColor;
 }
 
@@ -596,8 +602,12 @@ Background color
   background-color: #ffffff;
 }
 
-.item:hover,
-.item:focus {
+.project {
+  display: block;
+}
+
+.project:hover,
+.project:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
