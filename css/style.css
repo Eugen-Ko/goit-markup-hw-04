@@ -155,6 +155,10 @@ Background color
   margin-left: 50px;
 }
 
+.contact {
+  padding-top: 1px;
+}
+
 .header-contacts .contact:hover,
 .header-contacts .contact:focus {
   margin: 0;
@@ -170,8 +174,6 @@ Background color
   height: 16px;
   width: 16px;
   margin-right: 10px;
-  margin-top: 1px;
-  margin-bottom: 1px;
   fill: currentColor;
 }
 
@@ -418,8 +420,6 @@ Background color
   display: flex;
   padding: 0;
   margin: 0;
-  width: 106px;
-  height: 60px;
   fill: currentColor;
 }
 
